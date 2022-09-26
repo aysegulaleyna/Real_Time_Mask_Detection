@@ -1,0 +1,78 @@
+# import cv2
+# import glob
+# import numpy as np
+
+
+# image_array = np.array[]
+# 	files = glob.glob ("C:\Users\aysegul\Desktop\aau\maskesiz.jpg")
+# 	for myFile in files:
+# 		image_array = [files]
+# 		image = cv2.imread (image_array)
+# 		image_array.append (image) 
+
+# image_array = [] 
+# files = glob.glob ("*.jpg")
+# for myFile in files:
+#     image = cv2.imread (maskesiz)
+#     image_array.append (image) 
+
+# print('image_array shape:', np.array(image_array).shape) 
+
+# cv2.imshow('frame', image_array[0])
+
+# cv2.waitKey(0) 
+
+
+#img leri gösterme
+
+	# cv2.imshow("maskeli/cropped%s.jpg" % timestr, img_1)
+	# cv2.destroyAllWindows()
+	# cv2.imshow('show' ,img)
+	# cv2.waitKey(5)
+	# cv2.destroyAllWindows()
+
+
+
+	
+	# from tkinter import *
+	# root_2 = Tk()
+	# root_2.title('maskeli')
+	# if mask>withoutMask :
+	# 	cv2.imshow("maskeli" , crop_frame)
+	# root.mainloop()
+	# x = 0	
+	# while x < num_of_second:
+	# 	cv2.imshow('frame', maskeli_images[i])
+	# 	x = x + 1
+
+
+
+	# print('image_array shape:', np.array(image_array).shape) 
+	# cv2.imshow('frame', image_array[0])
+
+	#cv2.waitKey(0)
+
+	# if mask<withoutMask :
+	# 	maskesiz = cv2.imshow("maskesiz", crop_frame)
+	# 	cv2.waitKey(15)
+	
+	# if mask>withoutMask :
+	# 	maskeli = cv2.imshow("maskesiz", crop_frame)
+	# 	cv2.waitKey(15)
+
+
+
+	# ekran = Tk()
+	# ekran = frame[startY:endY, startX:endX]
+	# ekran.title("yüzler")
+	# ekran.geometry('500x350+600+300')
+	
+	# if mask<withoutMask :
+	# 	ekran1 = Label(ekran)
+	# 	ekran1.grid(row=0, column=0)
+	# 	ekran1.pack(side=RIGHT)
+	# else :
+	# 	ekran2 = Label(ekran)
+	# 	ekran2.grid(row=0, column=0)
+	# 	ekran1.pack(side=LEFT)
+	# ekran.mainloop()

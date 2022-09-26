@@ -1,0 +1,57 @@
+-çalıştırmak için
+yeni bir teminal açılır.
+python detect_mask_video.py kodu ile program başlatılır.
+
+-TensorFlow
+makine öğrenimi için ücretsiz ve açık kaynaklı bir yazılım kütüphanesidir. Bir dizi görevde kullanılabilir, ancak derin sinir ağlarının 
+eğitimi ve çıkarımına özel olarak odaklanmaktadır. 
+Tensorflow, veri akışına ve türevlenebilir programlamaya dayalı sembolik bir matematik kitaplığıdır. 
+
+-Keras
+neredeyse Her tür derin öğrenme modelini tanımlamak ve eğitmek için uygun bir yol sağlayan Python da kullanılan bir derin öğrenme kütüphanesidir. 
+Keras, Tensorflow,Theano ve CNTK üzerinde çalışabilen Python ile yazılmış bir üst düzey sinir ağları API'sıdır.
+
+-opencv (cv2)
+Görüntü işleme kütüphanesidir.
+python3 de çalışır.C++ , C, MATLAB, Python, Java, C# da çalışır.
+
+-MobileNetV2
+Projede Transfer Learning kullanarak ImageNet kütüphanesi ile eğitilmiş ve mobil uygulamalara yönelik olarak geliştirilen MobileNetV2 ağı kullanılmıştır. 
+Bu tarz ağlar birçok fotoğraf ile eğitildiği için Çoklu Sınıflandırma problemlerinde iyi çalışırlar. 
+Bundan dolayı MobileNetV2 ağının kullanılması uygun görülmüştür.
+
+-Image Processing ne işe yarar?
+Görüntü İşleme, görüntüyü dijital form haline getirmek ve bazı işlemleri gerçekleştirmek için geliştirilmiş, spesifik görüntü elde etmek veya ondan bazı 
+yararlı bilgiler çıkarmak için kullanılan bir yöntemdir.
+
+-imutils & imutils.video
+Çevirme, döndürme, yeniden boyutlandırma, iskeletleştirme, Matplotlib görüntülerini görüntüleme, konturları sıralama, kenarları algılama gibi temel görüntü 
+işleme işlevlerini OpenCV ve Python da yapar.
+örnekler için inceleyebilirsiniz. https://www.programcreek.com/python/example/114226/imutils.video.VideoStream
+
+-numpy
+NumPy, Python programlama dili için büyük, çok boyutlu dizileri ve matrisleri destekleyen, bu diziler üzerinde çalışacak üst düzey matematiksel işlevler
+ekleyen bir kütüphanedir.
+
+-argparse
+Yazdığımız her uygulama grafik arayüzüne sahip olmaz. Bazı uygulamalar komut satırına daha uygundur ve bu uygulamalar bazı parametrelere ihtiyaç duyar. 
+rgparse modülü kullanıcıdan aldığımız parametreler için yardım mesajları, nasıl kullanıldığına yönelik mesajları üretir. Ayrıca bu modül kullanıcı geçersiz
+parametre girerse uygun hata mesajını bastırır.
+
+-time
+zaman, saat ve tarihlerle ilgili işlemler yapmamızı sağlayan önemli bir standart kütüphane modülündür.
+time modülü; zaman, saat ve tarihlerle ilgili işlemler yapabilmemiz için bize çeşitli fonksiyon ve nitelikler sunan bazı sınıflardan oluşur.
+zamanla ilgili fonksiyonların bulunduğu python’ın içine gömülü(Python’ı indirdiğinizde beraberinde gelir) bir kütüphanedir.
+
+-os
+Os modülü Python'da hazır olarak gelen , dosya ve dizinlerde kolaylıkla işlemler yapmamızı sağlayan bir modüldür.
+
+-ResNet-50 
+50 katman derinliğine sahip evrişimsel bir sinir ağıdır. Residual Networks'ün kısaltması olan ResNet, birçok bilgisayarla görme görevi için 
+omurga olarak kullanılan klasik bir sinir ağıdır. 
+
+-caffemodel
+derin öğrenme framework udur.
+GPU makine üzerinde eğitim işlemini yapmak için CPU ve GPU değişimi bir etiket ayarı ile gerçekleştirilebilmekte böylece küme bilgisayarlara
+veya mobil cihazlara yayılım sağlar.
+ifade ve hız açısından gelişmiştir.
